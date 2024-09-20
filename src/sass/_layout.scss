@@ -1,0 +1,61 @@
+/* ===========================
+   ToC 
+
+   1.0 Phone
+   1.1 Footer
+   2.0 Tablet 550px - 900px
+   3. 550px and Above
+   =========================== */
+
+/* ===================
+   1.0 Phones 0 - 549px 
+   =================== */
+
+/* =============
+   1.1 Footer 
+   ============= */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+  text-wrap: balance;
+
+  @media (max-width: 600px) {
+    font-size: 1rem;
+  }
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* ========================
+   2.0 Tablet 550px - 900px
+   ======================== */
+
+@media (min-width: 550px) {
+  .app-layout {
+  }
+}
+
+/* ===========================
+   3.0 Laptops 1100px - 1439px
+   =========================== */
+@media (min-width: 1100px) {
+  .app-layout {
+  }
+}
+
+/* =============================
+   4.0 Desktops 1440px and up
+   ============================ */
+@media (min-width: 1100px) {
+  .app-layout {
+  }
+}
