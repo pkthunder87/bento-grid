@@ -21,6 +21,16 @@ function App() {
         />
         <p className="grid-item--1__text">Over 4,000 5-star reviews</p>
       </GridItem>
+      <GridItem gridItemNum="2">
+        <img
+          className="grid-item--2__img"
+          src={`${imgPrefix}multiple-platforms${imgSuffix}`}
+          alt=""
+        />
+        <h2 className="grid-item--2__title">
+          Manage multiple accounts and platforms.
+        </h2>
+      </GridItem>
       <Attribution />
     </AppLayout>
   );
