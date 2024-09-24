@@ -104,10 +104,10 @@
     background-color: hsl(var(--color-yellow-500));
     padding: 2rem;
     padding-block-end: 0;
-    padding-inline-end: 10rem;
+    padding-inline-end: 9rem;
 
     &__title {
-      font-size: 2.3rem;
+      font-size: 2.4rem;
       font-weight: 600;
       text-wrap: pretty;
       line-height: 1em;
@@ -115,8 +115,33 @@
     }
 
     &__img {
-      padding-inline-end: 2rem;
+      padding-inline-end: 3rem;
       object-position: 0 2rem;
+    }
+  }
+
+  &--4 {
+    background-color: hsl(var(--color-purple-100));
+    padding: 2rem;
+
+    color: hsl(var(--color-black));
+    text-align: center;
+
+    &__title {
+      font-size: 2.5rem;
+      font-weight: 600;
+      padding-inline: 1rem;
+      margin-block-start: 1rem;
+      margin-block-end: 2rem;
+      letter-spacing: -0.5px;
+    }
+
+    &__text {
+      font-size: 1.9rem;
+      padding-inline: 1rem;
+      margin-block-start: 2.5rem;
+      margin-block-end: 1.5rem;
+      line-height: 1em;
     }
   }
 }

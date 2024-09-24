@@ -41,6 +41,18 @@ function App() {
           alt=""
         />
       </GridItem>
+      <GridItem gridItemNum="4">
+        <h2 className="grid-item--4__title"> Schedule to social media.</h2>
+        <img
+          className="grid-item--4__img"
+          src={`${imgPrefix}schedule-posts${imgSuffix}`}
+          alt=""
+        />
+        <p className="grid-item--4__text">
+          Optimize post timings to publish content at the perfect time for your
+          audience.
+        </p>
+      </GridItem>
       <Attribution />
     </AppLayout>
   );
