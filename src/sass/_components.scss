@@ -84,7 +84,7 @@
   &--2 {
     background-color: hsl(var(--color-white));
     border-radius: 12px;
-    padding: 1.5rem;
+    padding: 2rem;
 
     &__img {
       border-radius: 100px;
@@ -97,6 +97,26 @@
       font-weight: 600;
       text-wrap: pretty;
       line-height: 1em;
+    }
+  }
+
+  &--3 {
+    background-color: hsl(var(--color-yellow-500));
+    padding: 2rem;
+    padding-block-end: 0;
+    padding-inline-end: 10rem;
+
+    &__title {
+      font-size: 2.3rem;
+      font-weight: 600;
+      text-wrap: pretty;
+      line-height: 1em;
+      margin-block-end: -0.25rem;
+    }
+
+    &__img {
+      padding-inline-end: 2rem;
+      object-position: 0 2rem;
     }
   }
 }

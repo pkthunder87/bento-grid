@@ -31,6 +31,16 @@ function App() {
           Manage multiple accounts and platforms.
         </h2>
       </GridItem>
+      <GridItem gridItemNum="3">
+        <h2 className="grid-item--3__title">
+          Maintain a consistent posting schedule.
+        </h2>
+        <img
+          className="grid-item--3__img"
+          src={`${imgPrefix}consistent-schedule${imgSuffix}`}
+          alt=""
+        />
+      </GridItem>
       <Attribution />
     </AppLayout>
   );
