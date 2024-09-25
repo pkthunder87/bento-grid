@@ -196,13 +196,14 @@
 
   &--7 {
     background-color: hsl(var(--color-yellow-100));
-    padding: 2.5rem;
+    padding-inline: 2.5rem;
+    padding-block: 2.8rem;
 
     &__title {
       font-size: 3.1rem;
       font-weight: 600;
       line-height: 0.85em;
-      margin-block-end: 2rem;
+      margin-block-end: 2.5rem;
 
       span {
         font-style: italic;
@@ -212,6 +213,28 @@
 
     &__img {
       width: 66%;
+    }
+  }
+
+  &--8 {
+    background-color: hsl(var(--color-yellow-500));
+    padding: 2.5rem;
+
+    &__title {
+      font-size: 3rem;
+      font-weight: 600;
+      line-height: 0.85em;
+      margin-block-end: 2rem;
+      text-wrap: pretty;
+
+      span {
+        font-style: italic;
+        color: hsl(var(--color-purple-500));
+      }
+    }
+
+    &__img {
+      width: 75%;
     }
   }
 }

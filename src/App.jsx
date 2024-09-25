@@ -84,6 +84,14 @@ function App() {
           alt=""
         />
       </GridItem>
+      <GridItem gridItemNum="8">
+        <h2 className="grid-item--8__title">Write your content using AI.</h2>
+        <img
+          className="grid-item--8__img"
+          src={`${imgPrefix}ai-content${imgSuffix}`}
+          alt=""
+        />
+      </GridItem>
       <Attribution />
     </AppLayout>
   );
