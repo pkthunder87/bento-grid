@@ -165,4 +165,32 @@
       line-height: 0.9em;
     }
   }
+
+  &--6 {
+    background-color: hsl(var(--color-white));
+    color: hsl(var(--color-black));
+    padding-inline: 2.5rem;
+    padding-block: 1rem;
+
+    &__title {
+      font-size: 4.6rem;
+      display: flex;
+      // justify-content: center;
+      align-items: center;
+      font-weight: 500;
+
+      span {
+        margin-block-end: 0.5rem;
+      }
+    }
+
+    &__text {
+      margin-block-end: 2rem;
+    }
+
+    &__img {
+      width: 56%;
+      margin-block-end: 1.5rem;
+    }
+  }
 }

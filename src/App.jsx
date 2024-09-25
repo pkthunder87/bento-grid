@@ -63,6 +63,17 @@ function App() {
           Grow followers with non&#8209;stop content.
         </h2>
       </GridItem>
+      <GridItem gridItemNum="6">
+        <h2 className="grid-item--6__title">
+          <span>&gt;</span>56%
+        </h2>
+        <p className="grid-item--6__text">faster audience growth</p>
+        <img
+          className="grid-item--6__img"
+          src={`${imgPrefix}audience-growth${imgSuffix}`}
+          alt=""
+        />
+      </GridItem>
       <Attribution />
     </AppLayout>
   );
