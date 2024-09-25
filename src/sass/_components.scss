@@ -144,4 +144,25 @@
       line-height: 1em;
     }
   }
+
+  &--5 {
+    background-color: hsl(var(--color-purple-500));
+    padding-inline: 5.5rem;
+    padding-block-start: 2rem;
+    padding-block-end: 2.5rem;
+
+    text-align: center;
+    text-wrap: pretty;
+
+    &__img {
+      margin-block-start: 0.5rem;
+      margin-block-end: 3.5rem;
+    }
+
+    &__title {
+      color: hsl(var(--color-white));
+      font-size: 3rem;
+      line-height: 0.9em;
+    }
+  }
 }

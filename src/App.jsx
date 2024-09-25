@@ -53,6 +53,16 @@ function App() {
           audience.
         </p>
       </GridItem>
+      <GridItem gridItemNum="5">
+        <img
+          className="grid-item--5__img"
+          src={`${imgPrefix}grow-followers${imgSuffix}`}
+          alt=""
+        />
+        <h2 className="grid-item--5__title">
+          Grow followers with non&#8209;stop content.
+        </h2>
+      </GridItem>
       <Attribution />
     </AppLayout>
   );
