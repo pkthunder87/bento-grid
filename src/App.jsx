@@ -74,6 +74,16 @@ function App() {
           alt=""
         />
       </GridItem>
+      <GridItem gridItemNum="7">
+        <h2 className="grid-item--7__title">
+          Create and schedule content <span>quicker.</span>
+        </h2>
+        <img
+          className="grid-item--7__img"
+          src={`${imgPrefix}create-post${imgSuffix}`}
+          alt=""
+        />
+      </GridItem>
       <Attribution />
     </AppLayout>
   );
