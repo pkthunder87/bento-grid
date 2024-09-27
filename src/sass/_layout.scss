@@ -41,8 +41,51 @@
    2.0 Tablet 550px - 900px
    ======================== */
 
-@media (min-width: 550px) {
+@media (min-width: 600px) {
   .app-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-item {
+    align-self: center;
+
+    &--1 {
+      order: 1;
+    }
+
+    &--2 {
+      order: 7;
+    }
+
+    &--3 {
+      order: 2;
+    }
+
+    &--4 {
+      order: 4;
+    }
+
+    &--5 {
+      order: 3;
+    }
+
+    &--6 {
+      order: 8;
+    }
+
+    &--7 {
+      order: 6;
+    }
+
+    &--8 {
+      order: 5;
+    }
+  }
+
+  .attribution {
+    order: 9;
+    grid-column: span 2;
   }
 }
 
