@@ -43,49 +43,9 @@
 
 @media (min-width: 600px) {
   .app-layout {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .grid-item {
-    align-self: center;
-
-    &--1 {
-      order: 1;
-    }
-
-    &--2 {
-      order: 7;
-    }
-
-    &--3 {
-      order: 2;
-    }
-
-    &--4 {
-      order: 4;
-    }
-
-    &--5 {
-      order: 3;
-    }
-
-    &--6 {
-      order: 8;
-    }
-
-    &--7 {
-      order: 6;
-    }
-
-    &--8 {
-      order: 5;
-    }
   }
 
   .attribution {
-    order: 9;
-    grid-column: span 2;
   }
 }
 
@@ -103,4 +63,28 @@
 @media (min-width: 1100px) {
   .app-layout {
   }
+}
+
+/* =============================
+   4.0 react-masonry-css
+   ============================ */
+
+//  https://www.npmjs.com/package/react-masonry-css
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  margin-bottom: 30px;
 }
