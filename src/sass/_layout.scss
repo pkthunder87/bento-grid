@@ -37,23 +37,48 @@
   padding-block: 8vh;
 }
 
-/* ========================
-   2.0 Tablet 600px - 900px
-   ======================== */
+.my-masonry-grid_column {
+  display: grid;
+}
 
-@media (min-width: 600px) {
-  .app-layout {
+// Displays grid items in correct order for phones
+.grid-item {
+  &--1 {
+    order: 1;
   }
-
-  .attribution {
+  &--2 {
+    order: 2;
+  }
+  &--3 {
+    order: 3;
+  }
+  &--4 {
+    order: 4;
+  }
+  &--5 {
+    order: 5;
+  }
+  &--6 {
+    order: 6;
+  }
+  &--7 {
+    order: 7;
+  }
+  &--8 {
+    order: 8;
   }
 }
 
+/* ========================
+   2.0 Tablet 600px - 899px
+   ======================== */
+
 /* ===========================
-   3.0 Laptops 1100px - 1439px
+   3.0 Laptops 900px - 1439px
    =========================== */
-@media (min-width: 1100px) {
-  .app-layout {
+@media (min-width: 900px) {
+  .my-masonry-grid_column {
+    display: inline-block;
   }
 }
 
@@ -66,7 +91,7 @@
 }
 
 /* =============================
-   4.0 react-masonry-css
+   5.0 react-masonry-css
    ============================ */
 
 //  https://www.npmjs.com/package/react-masonry-css

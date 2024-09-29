@@ -22,6 +22,16 @@ function App() {
         className="my-masonry-grid"
         columnClassName="my-masonry-grid_column"
       >
+        <GridItem gridItemNum="7">
+          <h2 className="grid-item--7__title">
+            Create and schedule content <span>quicker.</span>
+          </h2>
+          <img
+            className="grid-item--7__img"
+            src={`${imgPrefix}create-post${imgSuffix}`}
+            alt=""
+          />
+        </GridItem>
         <GridItem gridItemNum="1">
           <h1 className="grid-item--1__title">
             Social Media <span className="ten-x">10x</span>{" "}
@@ -33,6 +43,26 @@ function App() {
             alt=""
           />
           <p className="grid-item--1__text">Over 4,000 5-star reviews</p>
+        </GridItem>
+        <GridItem gridItemNum="4">
+          <h2 className="grid-item--4__title"> Schedule to social media.</h2>
+          <img
+            className="grid-item--4__img"
+            src={`${imgPrefix}schedule-posts${imgSuffix}`}
+            alt=""
+          />
+          <p className="grid-item--4__text">
+            Optimize post timings to publish content at the perfect time for
+            your audience.
+          </p>
+        </GridItem>
+        <GridItem gridItemNum="8">
+          <h2 className="grid-item--8__title">Write your content using AI.</h2>
+          <img
+            className="grid-item--8__img"
+            src={`${imgPrefix}ai-content${imgSuffix}`}
+            alt=""
+          />
         </GridItem>
         <GridItem gridItemNum="2">
           <img
@@ -54,28 +84,6 @@ function App() {
             alt=""
           />
         </GridItem>
-        <GridItem gridItemNum="4">
-          <h2 className="grid-item--4__title"> Schedule to social media.</h2>
-          <img
-            className="grid-item--4__img"
-            src={`${imgPrefix}schedule-posts${imgSuffix}`}
-            alt=""
-          />
-          <p className="grid-item--4__text">
-            Optimize post timings to publish content at the perfect time for
-            your audience.
-          </p>
-        </GridItem>
-        <GridItem gridItemNum="5">
-          <img
-            className="grid-item--5__img"
-            src={`${imgPrefix}grow-followers${imgSuffix}`}
-            alt=""
-          />
-          <h2 className="grid-item--5__title">
-            Grow followers with non&#8209;stop content.
-          </h2>
-        </GridItem>
         <GridItem gridItemNum="6">
           <h2 className="grid-item--6__title">
             <span>&gt;</span>56%
@@ -87,23 +95,15 @@ function App() {
             alt=""
           />
         </GridItem>
-        <GridItem gridItemNum="7">
-          <h2 className="grid-item--7__title">
-            Create and schedule content <span>quicker.</span>
+        <GridItem gridItemNum="5">
+          <img
+            className="grid-item--5__img"
+            src={`${imgPrefix}grow-followers${imgSuffix}`}
+            alt=""
+          />
+          <h2 className="grid-item--5__title">
+            Grow followers with non&#8209;stop content.
           </h2>
-          <img
-            className="grid-item--7__img"
-            src={`${imgPrefix}create-post${imgSuffix}`}
-            alt=""
-          />
-        </GridItem>
-        <GridItem gridItemNum="8">
-          <h2 className="grid-item--8__title">Write your content using AI.</h2>
-          <img
-            className="grid-item--8__img"
-            src={`${imgPrefix}ai-content${imgSuffix}`}
-            alt=""
-          />
         </GridItem>
       </Masonry>
 
