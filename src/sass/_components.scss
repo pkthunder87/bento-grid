@@ -23,13 +23,14 @@
   --color-black: 0deg, 0%, 7%;
 }
 
-/* ===================
-   1.0 Phones 0 - 549px 
-   =================== */
+/* ==============================
+   1.0 Phones & Tablets 0 - 900px 
+   ============================== */
 
 .main_title {
   font-size: 5rem;
 }
+
 /* =============
    1.1 grid-item
    ============= */
@@ -223,6 +224,63 @@
 
     &__img {
       width: 75%;
+    }
+  }
+}
+
+/* ==========================
+   2.0 Laptops 900px - 1399px 
+   ========================== */
+
+/* ==========
+   2.1 grid-item
+   ============= */
+.grid-item {
+  border-radius: 12px;
+
+  &--7 {
+    background-color: hsl(var(--color-yellow-100));
+    padding-inline: 3rem;
+    padding-block: 7.5rem;
+
+    &__title {
+      font-size: 3.6rem;
+      font-weight: 600;
+      line-height: 1em;
+      margin-block-end: 2.5rem;
+    }
+
+    &__img {
+      width: 100%;
+    }
+  }
+
+  &--1 {
+    padding: 4rem;
+    text-align: center;
+    line-height: 2.4em;
+
+    .ten-x {
+      color: hsl(var(--color-yellow-500));
+      font-size: 4.5rem;
+    }
+
+    .faster {
+      font-style: italic;
+    }
+
+    &__title {
+      font-size: 4.8rem;
+      font-weight: 400;
+      margin-block-end: 2rem;
+    }
+
+    &__img {
+      scale: 70%;
+    }
+
+    &__text {
+      margin-block-end: -1rem;
     }
   }
 }
