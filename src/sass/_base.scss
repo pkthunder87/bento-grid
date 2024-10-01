@@ -28,17 +28,17 @@
 }
 
 /* ===================
-   1.0 Phones 0 - 549px 
-   =================== */
+     1.0 Phones 0 - 549px 
+     =================== */
 
 /* =============
-   1.1 Reset 
-   ============= */
+     1.1 Reset 
+     ============= */
 /* 
-A reset by:
-https://piccalil.li/blog/a-more-modern-css-reset/
-Also made some adjustments for my own needs  
-*/
+  A reset by:
+  https://piccalil.li/blog/a-more-modern-css-reset/
+  Also made some adjustments for my own needs  
+  */
 
 /* Box sizing rules */
 /* Remove initial margins */
@@ -111,8 +111,8 @@ select {
 }
 
 /* =======================
-   2.0 Tablet 550px - 899px 
-   ======================= */
+     2.0 Tablet 550px - 899px 
+     ======================= */
 
 @media (min-width: 550px) {
   html {
@@ -120,23 +120,20 @@ select {
   }
 
   body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
 
 /* ==================
-   3.0 800px and 1099 
-   ================== */
+     3.0 800px and 1099 
+     ================== */
 @media (min-width: 800px) {
   body {
   }
 }
 
 /* ====================
-   4.0 1100px and Above 
-   ==================== */
+     4.0 1100px and Above 
+     ==================== */
 @media (min-width: 1100px) {
   body {
   }

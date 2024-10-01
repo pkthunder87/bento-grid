@@ -1,5 +1,3 @@
-import Masonry from "react-masonry-css";
-
 import AppLayout from "./components/AppLayout";
 import Attribution from "./components/Attribution";
 import GridItem from "./components/GridItem";
@@ -8,20 +6,10 @@ import "./sass/main.scss";
 const imgPrefix = "../src/assets/images/illustration-";
 const imgSuffix = ".webp";
 
-const breakpointColumnsObj = {
-  default: 3,
-  900: 2,
-  500: 1,
-};
-
 function App() {
   return (
     <AppLayout>
-      <Masonry
-        breakpointCols={breakpointColumnsObj}
-        className="my-masonry-grid"
-        columnClassName="my-masonry-grid_column"
-      >
+      <div className="grid">
         <GridItem gridItemNum="7">
           <h2 className="grid-item--7__title">
             Create and schedule content <span>quicker.</span>
@@ -105,7 +93,7 @@ function App() {
             Grow followers with non&#8209;stop content.
           </h2>
         </GridItem>
-      </Masonry>
+      </div>
 
       <Attribution />
     </AppLayout>
