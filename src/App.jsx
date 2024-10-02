@@ -10,6 +10,7 @@ function App() {
   return (
     <AppLayout>
       <div className="grid">
+        <div className="grid-sizer"></div>
         <GridItem gridItemNum="7">
           <h2 className="grid-item--7__title">
             Create and schedule content <span>quicker.</span>
@@ -94,7 +95,6 @@ function App() {
           </h2>
         </GridItem>
       </div>
-
       <Attribution />
     </AppLayout>
   );

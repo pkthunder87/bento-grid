@@ -5,7 +5,12 @@ window.onload = () => {
 
   const masonry = new Masonry(grid, {
     itemSelector: ".grid-item",
-    columnWidth: 200,
+    columnWidth: ".grid-sizer",
+    percentPosition: true,
     gutter: 25,
+  });
+
+  grid.imagesLoaded.progress(function () {
+    grid.masonry("layout");
   });
 };
