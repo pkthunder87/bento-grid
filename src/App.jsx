@@ -1,12 +1,22 @@
+import { useEffect, useState } from "react";
 import AppLayout from "./components/AppLayout";
 import Attribution from "./components/Attribution";
 import GridItem from "./components/GridItem";
 import "./sass/main.scss";
+import Mobile from "./components/Mobile";
 
 const imgPrefix = "../src/assets/images/illustration-";
 const imgSuffix = ".webp";
 
 function App() {
+  let [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    if (window.innerWidth < 600) setIsMobile(true);
+  }, []);
+
+  if (isMobile) return <Mobile />;
+
   return (
     <AppLayout>
       <div className="grid">
