@@ -102,6 +102,7 @@
 
 .grid {
   display: flex;
+  margin-left: 16rem;
 }
 
 .grid-sizer,
@@ -120,14 +121,23 @@
   }
 
   .app-layout {
-    // display: flex;
-    // flex-direction: column;
-    // gap: 3.5rem;
+    display: grid;
     // padding-inline: 5vw;
     // padding-block: 8vh;
+    grid-template-columns: 1fr;
+    justify-content: flex-end;
+    align-items: center;
   }
 }
 
 .grid-item {
   margin-block-end: 25px;
+
+  &--1 {
+    width: 40%;
+  }
+
+  &--5 {
+    // width: 40%;
+  }
 }
