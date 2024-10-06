@@ -10,7 +10,7 @@ function Attribution() {
       </a>
       . Coded by{" "}
       <a href="#" target="_blank" rel="noreferrer">
-        Your Name Here
+        PkThunder.
       </a>
     </div>
   );
