@@ -7,6 +7,7 @@ window.onload = () => {
     itemSelector: ".grid-item",
     columnWidth: ".grid-sizer",
     percentPosition: true,
+    horizontalOrder: true,
     gutter: 25,
   });
 
