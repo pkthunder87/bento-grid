@@ -83,6 +83,16 @@ function App() {
             alt=""
           />
         </GridItem>
+        <GridItem gridItemNum="5">
+          <img
+            className="grid-item--5__img"
+            src={`${imgPrefix}grow-followers${imgSuffix}`}
+            alt=""
+          />
+          <h2 className="grid-item--5__title">
+            Grow followers with non&#8209;stop content.
+          </h2>
+        </GridItem>
         <GridItem gridItemNum="6">
           <h2 className="grid-item--6__title">
             <span>&gt;</span>56%
@@ -93,16 +103,6 @@ function App() {
             src={`${imgPrefix}audience-growth${imgSuffix}`}
             alt=""
           />
-        </GridItem>
-        <GridItem gridItemNum="5">
-          <img
-            className="grid-item--5__img"
-            src={`${imgPrefix}grow-followers${imgSuffix}`}
-            alt=""
-          />
-          <h2 className="grid-item--5__title">
-            Grow followers with non&#8209;stop content.
-          </h2>
         </GridItem>
       </div>
       <Attribution />
