@@ -229,121 +229,153 @@
 }
 
 /* ==========================
-   2.0 Laptops 900px - 1399px 
+   2.0 Tablets 600px - 1399px 
    ========================== */
 
 /* ==========
    2.1 grid-item
    ============= */
-.grid-item {
-  border-radius: 12px;
 
-  &--4 {
-    padding: 2rem;
+@media (min-width: 600px) {
+  .grid-item {
+    border-radius: 12px;
 
-    &__title {
-      font-size: 2.5rem;
-      font-weight: 600;
-      padding-inline: 1rem;
-      margin-block-start: 1rem;
-      margin-block-end: 2rem;
-      letter-spacing: -0.5px;
+    &--1 {
+      padding: 4rem;
+      text-align: center;
+      line-height: 2.4em;
+
+      .ten-x {
+        color: hsl(var(--color-yellow-500));
+        font-size: 4.5rem;
+      }
+
+      .faster {
+        font-style: italic;
+      }
+
+      &__title {
+        font-size: 4.8rem;
+        font-weight: 400;
+        margin-block-end: 2rem;
+      }
+
+      &__img {
+        scale: 70%;
+      }
+
+      &__text {
+        margin-block-end: -1rem;
+      }
     }
 
-    &__text {
-      font-size: 1.9rem;
-      padding-inline: 1rem;
-      margin-block-start: 2.5rem;
-      margin-block-end: 1.5rem;
-      line-height: 1em;
-    }
-  }
+    &--4 {
+      padding: 2rem;
 
-  &--5 {
-    display: flex;
-    padding-inline: 2rem;
-    padding-block-start: 2rem;
-    padding-block-end: 2rem;
+      &__title {
+        font-size: 2.5rem;
+        font-weight: 600;
+        padding-inline: 1rem;
+        margin-block-start: 1rem;
+        margin-block-end: 2rem;
+        letter-spacing: -0.5px;
+      }
 
-    text-align: left;
-    text-wrap: balance;
-
-    &__img {
-      width: 45%;
-      margin-block-start: 0rem;
-      margin-block-end: 0rem;
+      &__text {
+        font-size: 1.9rem;
+        padding-inline: 1rem;
+        margin-block-start: 2.5rem;
+        margin-block-end: 1.5rem;
+        line-height: 1em;
+      }
     }
 
-    &__title {
+    &--5 {
       display: flex;
-      font-size: 2.8rem;
-      line-height: 0.9em;
-      margin-inline-start: 1rem;
-      align-items: center;
-    }
-  }
+      padding-inline: 2rem;
+      padding-block-start: 2rem;
+      padding-block-end: 2rem;
+      left: 44.3993% !important;
+      top: 530px !important;
 
-  &--7 {
-    background-color: hsl(var(--color-yellow-100));
-    padding-inline: 3rem;
-    padding-block: 6rem;
+      text-align: left;
+      text-wrap: balance;
 
-    &__title {
-      font-size: 3.2rem;
-      font-weight: 600;
-      letter-spacing: -1px;
-      line-height: 1em;
-      margin-block-end: 2.5rem;
-    }
+      &__img {
+        width: 45%;
+        margin-block-start: 0rem;
+        margin-block-end: 0rem;
+      }
 
-    &__img {
-      width: 100%;
-    }
-  }
-
-  &--8 {
-    padding-inline-start: 2rem;
-    padding-inline-end: 1.2rem;
-    padding-block: 3rem;
-
-    &__title {
-      font-size: 3rem;
-      line-height: 0.9em;
-      letter-spacing: -1px;
-      margin-block-end: 5rem;
+      &__title {
+        display: flex;
+        font-size: 2.8rem;
+        line-height: 0.9em;
+        margin-inline-start: 1rem;
+        align-items: center;
+      }
     }
 
-    &__img {
-      width: 100%;
-    }
-  }
+    &--6 {
+      padding-inline: 2.5rem;
+      padding-block: 1rem;
+      left: 22.1996% !important;
+      top: 530px !important;
 
-  &--1 {
-    padding: 4rem;
-    text-align: center;
-    line-height: 2.4em;
+      &__title {
+        font-size: 4.6rem;
+        display: flex;
+        // justify-content: center;
+        align-items: center;
 
-    .ten-x {
-      color: hsl(var(--color-yellow-500));
-      font-size: 4.5rem;
-    }
+        span {
+          margin-block-end: 0.5rem;
+        }
+      }
 
-    .faster {
-      font-style: italic;
-    }
+      &__text {
+        margin-block-end: 2rem;
+      }
 
-    &__title {
-      font-size: 4.8rem;
-      font-weight: 400;
-      margin-block-end: 2rem;
-    }
-
-    &__img {
-      scale: 70%;
+      &__img {
+        width: 56%;
+        margin-block-end: 1.5rem;
+      }
     }
 
-    &__text {
-      margin-block-end: -1rem;
+    &--7 {
+      background-color: hsl(var(--color-yellow-100));
+      padding-inline: 3rem;
+      padding-block: 6rem;
+
+      &__title {
+        font-size: 3.2rem;
+        font-weight: 600;
+        letter-spacing: -1px;
+        line-height: 1em;
+        margin-block-end: 2.5rem;
+      }
+
+      &__img {
+        width: 100%;
+      }
+    }
+
+    &--8 {
+      padding-inline-start: 2rem;
+      padding-inline-end: 1.2rem;
+      padding-block: 3rem;
+
+      &__title {
+        font-size: 3rem;
+        line-height: 0.9em;
+        letter-spacing: -1px;
+        margin-block-end: 5rem;
+      }
+
+      &__img {
+        width: 100%;
+      }
     }
   }
 }

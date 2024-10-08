@@ -108,6 +108,7 @@
 .grid-sizer,
 .grid-item {
   width: auto;
+  margin-block-end: 25px;
 }
 
 @media (min-width: 600px) {
@@ -120,6 +121,16 @@
     width: 20%;
   }
 
+  .grid-item {
+    &--1 {
+      width: 40%;
+    }
+
+    &--5 {
+      width: 40%;
+    }
+  }
+
   .app-layout {
     display: grid;
     // padding-inline: 5vw;
@@ -127,17 +138,5 @@
     grid-template-columns: 1fr;
     justify-content: flex-end;
     align-items: center;
-  }
-}
-
-.grid-item {
-  margin-block-end: 25px;
-
-  &--1 {
-    width: 40%;
-  }
-
-  &--5 {
-    width: 40%;
   }
 }
