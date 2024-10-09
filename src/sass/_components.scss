@@ -242,26 +242,23 @@
 
     &--1 {
       padding: 4rem;
+      padding-block-start: 5.5rem;
       text-align: center;
-      line-height: 2.4em;
+      line-height: 2.8em;
 
       .ten-x {
-        color: hsl(var(--color-yellow-500));
-        font-size: 4.5rem;
-      }
-
-      .faster {
-        font-style: italic;
+        font-size: 5rem;
       }
 
       &__title {
-        font-size: 4.8rem;
-        font-weight: 400;
-        margin-block-end: 2rem;
+        font-size: 5.1rem;
+        font-weight: 600;
+        margin-block-end: 0.5rem;
       }
 
       &__img {
-        scale: 70%;
+        scale: 50%;
+        margin-block-end: -2rem;
       }
 
       &__text {
@@ -269,23 +266,67 @@
       }
     }
 
-    &--4 {
+    &--2 {
       padding: 2rem;
+      overflow: hidden;
+
+      &__img {
+        margin-block-end: 1.4rem;
+        width: 150%;
+        max-width: none;
+      }
 
       &__title {
         font-size: 2.5rem;
-        font-weight: 600;
-        padding-inline: 1rem;
-        margin-block-start: 1rem;
-        margin-block-end: 2rem;
-        letter-spacing: -0.5px;
+        line-height: 0.94em;
+        margin-block-end: 0.2rem;
+      }
+    }
+
+    &--3 {
+      padding: 2rem;
+      padding-block-end: 0;
+      padding-inline-end: 2rem;
+      height: 20.5rem;
+      overflow: hidden;
+
+      &__title {
+        font-size: 2.3rem;
+        text-wrap: wrap;
+        line-height: 1em;
+        margin-block-end: 1.5rem;
+      }
+
+      &__img {
+        padding-inline-end: 0rem;
+        object-position: 0 0;
+        width: 100%;
+      }
+    }
+
+    &--4 {
+      padding-block: 3.1rem;
+      text-align: left;
+      overflow: hidden;
+
+      &__title {
+        font-size: 2.5rem;
+        padding-inline: 0.5rem;
+        line-height: 0.9em;
+        margin-block-end: 2.27rem;
+      }
+
+      &__img {
+        width: 175%;
+        max-width: none;
       }
 
       &__text {
-        font-size: 1.9rem;
+        font-size: 1.55rem;
         padding-inline: 1rem;
+        margin-inline-start: -0.5rem;
         margin-block-start: 2.5rem;
-        margin-block-end: 1.5rem;
+        margin-block-end: 1.6rem;
         line-height: 1em;
       }
     }
@@ -295,21 +336,21 @@
       padding-inline: 2rem;
       padding-block-start: 2rem;
       padding-block-end: 2rem;
-      left: 44.3993% !important;
-      top: 530px !important;
+      left: 44.65% !important;
+      top: 538px !important;
 
       text-align: left;
       text-wrap: balance;
 
       &__img {
-        width: 45%;
+        width: 46%;
         margin-block-start: 0rem;
         margin-block-end: 0rem;
       }
 
       &__title {
         display: flex;
-        font-size: 2.8rem;
+        font-size: 3rem;
         line-height: 0.9em;
         margin-inline-start: 1rem;
         align-items: center;
@@ -320,13 +361,11 @@
       padding-inline: 2.5rem;
       padding-block: 1rem;
       left: 22.1996% !important;
-      top: 530px !important;
+      top: 538px !important;
 
       &__title {
-        font-size: 4.6rem;
-        display: flex;
-        // justify-content: center;
-        align-items: center;
+        font-size: 5rem;
+        margin-block-end: 0.5rem;
 
         span {
           margin-block-end: 0.5rem;
@@ -334,11 +373,12 @@
       }
 
       &__text {
-        margin-block-end: 2rem;
+        font-size: 1.45rem;
+        margin-block-end: 2.5rem;
       }
 
       &__img {
-        width: 56%;
+        width: 90%;
         margin-block-end: 1.5rem;
       }
     }
