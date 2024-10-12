@@ -16,14 +16,16 @@
    ============= */
 
 .attribution {
-  font-size: 11px;
+  font-size: 1.4rem;
   text-align: center;
 
   text-wrap: balance;
   order: 9;
+  margin-block-start: 1.8rem;
+  margin-block-end: -3.2rem;
 
   @media (min-width: 600px) {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 }
 .attribution a {
@@ -108,6 +110,9 @@
 .grid-sizer,
 .grid-item {
   width: auto;
+}
+
+.grid-item:not(:nth-child(8)) {
   margin-block-end: 25px;
 }
 
@@ -141,6 +146,7 @@
   }
 
   .attribution {
-    margin-block-start: -42rem;
+    margin-block-start: -46rem;
+    margin-block-end: -3.2rem;
   }
 }
