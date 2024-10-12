@@ -133,8 +133,8 @@
 
   .app-layout {
     display: grid;
-    // padding-inline: 5vw;
-    // padding-block: 8vh;
+    padding-inline: 5vw;
+    padding-block: 8vh;
     grid-template-columns: 1fr;
     justify-content: flex-end;
     align-items: center;
