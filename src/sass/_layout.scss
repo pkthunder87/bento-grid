@@ -117,6 +117,23 @@
 }
 
 @media (min-width: 600px) {
+  .app-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .attribution {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 900px) {
+  .app-layout {
+    gap: 0;
+  }
+
   .grid {
     display: block;
   }
