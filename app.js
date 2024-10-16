@@ -1,5 +1,6 @@
 import Masonry from "masonry-layout";
 
+// Setup and configuration for masonry layout
 window.onload = () => {
   const grid = document.querySelector(".grid");
 

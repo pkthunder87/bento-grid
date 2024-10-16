@@ -18,6 +18,7 @@ This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.
 - Semantic HTML5 markup
 - Flexbox
 - Grid
+- Google Fonts
 - SASS
 - Vite
 - React
