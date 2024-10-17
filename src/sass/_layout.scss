@@ -145,17 +145,17 @@
 
   .grid-item {
     &--1 {
-      width: 42.2%;
+      width: 42.7%;
     }
 
     &--5 {
-      width: 42.4%;
+      width: 42.7%;
     }
   }
 
   .app-layout {
     display: grid;
-    padding-inline: 5vw;
+    padding-inline: 0vw;
     padding-block: 8vh;
     grid-template-columns: 1fr;
     justify-content: flex-end;
@@ -165,5 +165,26 @@
   .attribution {
     margin-block-start: -46rem;
     margin-block-end: -3.2rem;
+  }
+}
+
+@media (min-width: 1350px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .grid-item {
+    &--1 {
+      width: 42.2%;
+    }
+
+    &--5 {
+      width: 42.4%;
+    }
+  }
+
+  .app-layout {
+    padding-inline: 5vw;
+    padding-block: 8vh;
   }
 }
