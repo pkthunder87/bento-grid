@@ -195,4 +195,18 @@
     top: 1%;
     left: 9%;
   }
+
+  .grid-item:not(:nth-child(8)) {
+    margin-block-end: 31.5px;
+  }
+
+  .grid-item {
+    &--1 {
+      width: 42.45%;
+    }
+
+    &--5 {
+      width: 42.4%;
+    }
+  }
 }
