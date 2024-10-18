@@ -482,3 +482,85 @@
     }
   }
 }
+
+/* ==========
+   4.1 grid-item
+   ============= */
+
+@media (min-width: 1430px) {
+  .grid-item {
+    &--1 {
+      display: flex;
+      flex-direction: column;
+      padding-block-start: 6rem;
+
+      .ten-x {
+        font-size: 6rem;
+      }
+
+      &__title {
+        font-size: 6rem;
+        line-height: 1em;
+        margin-block-end: -0.2rem;
+      }
+
+      &__img {
+        scale: 42%;
+        margin-block-end: -3rem;
+      }
+    }
+
+    &--2 {
+      &__img {
+        margin-block-end: 1.4rem;
+      }
+
+      &__title {
+        font-size: 2.5rem;
+        margin-block-end: 0.2rem;
+      }
+    }
+
+    &--3 {
+      height: 20.5rem;
+    }
+
+    &--5 {
+      left: 44.65% !important;
+
+      &__img {
+        width: 46%;
+      }
+    }
+
+    &--6 {
+      left: 22.1996% !important;
+
+      &__title {
+        font-size: 5rem;
+        margin-block-end: 0.5rem;
+
+        span {
+          margin-block-end: 0.5rem;
+        }
+      }
+
+      &__text {
+        font-size: 1.45rem;
+        margin-block-end: 2.5rem;
+      }
+    }
+
+    &--7 {
+      padding-inline: 3.5rem;
+      padding-block: 8rem;
+
+      &__title {
+        font-size: 3.9rem;
+        font-weight: 500;
+        letter-spacing: -1.5px;
+        line-height: 0.9em;
+      }
+    }
+  }
+}
