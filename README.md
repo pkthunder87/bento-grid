@@ -11,7 +11,7 @@ This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.
 
 ### Links
 
-- Live Site URL: [Github Pages](https://githubURL)
+- Live Site URL: [Netlify](https://bento-pkthunder.netlify.app/)
 
 ### Built with
 
