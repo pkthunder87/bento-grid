@@ -9,7 +9,11 @@ function Attribution() {
         Frontend Mentor
       </a>
       . Coded by{" "}
-      <a href="#" target="_blank" rel="noreferrer">
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://github.com/pkthunder87/bento-grid"
+      >
         PkThunder.
       </a>
     </div>
