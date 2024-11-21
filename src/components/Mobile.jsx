@@ -3,7 +3,7 @@ import Attribution from "./Attribution";
 import GridItem from "./GridItem";
 import "../sass/main.scss";
 
-const imgPrefix = "../src/assets/images/illustration-";
+const imgPrefix = "/assets/images/illustration-";
 const imgSuffix = ".webp";
 
 function Mobile() {

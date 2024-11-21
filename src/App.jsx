@@ -5,7 +5,7 @@ import GridItem from "./components/GridItem";
 import "./sass/main.scss";
 import Mobile from "./components/Mobile";
 
-const imgPrefix = "../src/assets/images/illustration-";
+const imgPrefix = "/assets/images/illustration-";
 const imgSuffix = ".webp";
 
 function App() {
